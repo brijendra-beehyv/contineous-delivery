@@ -3,9 +3,6 @@ kind: Application
 metadata:
   name: metrics-app
   namespace: argocd
-  # argocd-image-updater.argoproj.io/image-list: my-app=brijendrasingh0369/tmp-metrics-app
-  # argocd-image-updater.argoproj.io/my-app.update-strategy: latest
-  # argocd-image-updater.argoproj.io/write-back-method: git
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
@@ -16,7 +13,7 @@ spec:
   source:
     repoURL: https://github.com/brijendra-beehyv/contineous-delivery.git
     path: services/metrics-app
-    targetRevision: main
+    targetRevision: HEAD
   syncPolicy:
     automated:
       prune: true
