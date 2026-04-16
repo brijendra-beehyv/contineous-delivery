@@ -5,4 +5,4 @@ resources:
   - 1-service.yaml
 images:
   - name: brijendrasingh0369/tmp-python-app
-    newTag: latest
+    newTag: bf577b1b6714299417f7f1180b74652fe4fe9bb3
