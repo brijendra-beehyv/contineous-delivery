@@ -16,7 +16,7 @@ spec:
       serviceAccountName: k8s-metrics
       containers:
         - name: k8s-metrics
-          image: brijendrasingh0369/k8s-metrics:0.1.1
+          image: brijendrasingh0369/tmp-metrics-app
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8000
