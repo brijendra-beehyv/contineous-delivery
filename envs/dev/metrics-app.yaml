@@ -16,7 +16,7 @@ spec:
   source:
     repoURL: https://github.com/brijendra-beehyv/contineous-delivery.git
     path: services/metrics-app
-    targetRevision: HEAD
+    targetRevision: main
   syncPolicy:
     automated:
       prune: true

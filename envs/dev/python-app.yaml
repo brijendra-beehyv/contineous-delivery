@@ -16,7 +16,7 @@ spec:
   source:
     repoURL: https://github.com/brijendra-beehyv/contineous-delivery.git
     path: services/python-app
-    targetRevision: HEAD
+    targetRevision: main
   syncPolicy:
     automated:
       prune: true
