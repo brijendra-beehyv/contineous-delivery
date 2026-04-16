@@ -4,5 +4,5 @@ resources:
   - 0-deployment.yaml
   - 1-service.yaml
 images:
-  - name: brijendrasingh0369/py-app
-    newTag: "0.1.3"
+  - name: brijendrasingh0369/tmp-python-app
+    newTag: latest

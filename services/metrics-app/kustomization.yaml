@@ -5,5 +5,5 @@ resources:
   - 1-deployment.yaml
   - 2-service.yaml
 images:
-  - name: brijendrasingh0369/k8s-metrics
-    newTag: "0.1.2"
+  - name: brijendrasingh0369/tmp-metrics-app
+    newTag: latest
