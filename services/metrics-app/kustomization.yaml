@@ -6,4 +6,4 @@ resources:
   - 2-service.yaml
 images:
   - name: brijendrasingh0369/tmp-metrics-app
-    newTag: 2473d1887e3716ad2497add988d8fdbb9caf7c02
+    newTag: sha-c875477
